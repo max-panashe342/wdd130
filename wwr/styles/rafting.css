@@ -79,13 +79,13 @@ h1 {
 
 article   {
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
     left: 16px;
-    padding: 16px;
+    padding: 6px;
     background-color:var(--accent1-color);
     color: #fff;
     opacity: 0.85;
-    border-radius: 8px;
+    border-radius: 6px;
     
 }
 hero article img, h2 {
