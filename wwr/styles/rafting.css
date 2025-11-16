@@ -77,10 +77,10 @@ h1 {
 
 }
 
-article   {
+article {
     position: absolute;
     bottom: 5px;
-    left: 16px;
+    left: 5px;
     padding: 6px;
     background-color:var(--accent1-color);
     color: #fff;
@@ -93,5 +93,7 @@ background-color: var(--accent1-color);
 margin-right: -25px;
 margin-left: -25px;
 height: 100px;
-
+}
+article h2 {
+    display: none;
 }
