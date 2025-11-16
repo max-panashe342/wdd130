@@ -1,7 +1,7 @@
 :root {
     --primary-color: #fff;
     --secondary-color: #3615c7;
-    --accent1-color: #0c1370;
+    --accent1-color: #333333;
     --accent2-color: #ffffff;
     --heading-font: 'Bungee', sans serif;
     --body-font: 'Poppins', sans-serif;
@@ -84,7 +84,6 @@ h1 {
     left: 5px;
     padding: 6px;
     background-color:var(--accent1-color);
-    color: #fff;
     opacity: 0.85;
     border-radius: 6px;
     
