@@ -1,7 +1,7 @@
 :root {
     --primary-color: #fff;
-    --secondary-color: #f4a261;
-    --accent1-color: #333333;
+    --secondary-color: #3615c7;
+    --accent1-color: #0c1370;
     --accent2-color: #ffffff;
     --heading-font: 'Bungee', sans serif;
     --body-font: 'Poppins', sans-serif;
@@ -41,6 +41,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color);
     
 
 }
