@@ -1,32 +1,27 @@
 :root {
     --primary-color: #fff;
-    --secondary-color: #7c5cfa;
+    --secondary-color: #a88bff; 
     --accent1-color: #1a1a1a;
-    --accent2-color: #fff;
-    --heading-font: 'Bungee', sans serif;
+    --accent2-color: #370fc9;
+    --heading-font: 'Bungee', sans-serif;
     --body-font: 'Poppins', sans-serif;
-    
 }
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
-
+    color: var(--accent1-color); 
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    
-
 }
-
 
 header, main, footer {
     width: 840px;
@@ -42,8 +37,6 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
     color: var(--secondary-color);
-    
-
 }
 
 .socialmedia a {
@@ -52,7 +45,6 @@ nav, p, section, article {
 
 .hero {
     position: relative;
-
 }
 
 .hero img {
@@ -75,7 +67,6 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-
 }
 
 .hero article {
@@ -83,17 +74,18 @@ h1 {
     bottom: 5px;
     left: 5px;
     padding: 6px;
-    background-color:var(--accent1-color);
+    background-color: var(--accent1-color);
     opacity: 0.9;
     border-radius: 6px;
-    
 }
+
 hero article img, h2 {
-background-color: var(--accent1-color);
-margin-right: -25px;
-margin-left: -25px;
-height: 100px;
+    background-color: var(--accent2-color);
+    margin-right: -25px;
+    margin-left: -25px;
+    height: 100px;
 }
+
 article h2 {
     display: none;
 }
