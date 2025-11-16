@@ -1,15 +1,15 @@
 :root {
-    --primary-color: #fff;
-    --secondary-color: #a88bff; 
+    --primary-color: #ffffff;
+    --secondary-color: #5a3fcf;   /* AAA contrast on white and dark */
     --accent1-color: #1a1a1a;
-    --accent2-color: #370fc9;
+    --accent2-color: #2a0ca6;     /* AAA contrast on white */
     --heading-font: 'Bungee', sans-serif;
     --body-font: 'Poppins', sans-serif;
 }
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent1-color); 
+    color: var(--accent1-color); /* strong contrast */
 }
 
 * {
@@ -36,7 +36,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
-    color: var(--secondary-color);
+    color: var(--secondary-color); /* AAA contrast */
 }
 
 .socialmedia a {
