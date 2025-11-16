@@ -11,6 +11,7 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+
 }
 * {
     margin: 0;
@@ -76,7 +77,7 @@ h1 {
 
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 5px;
     left: 5px;
