@@ -1,6 +1,6 @@
 :root {
     --primary-color: #fff;
-    --secondary-color: #3615c7;
+    --secondary-color: #4821f7;
     --accent1-color: #333333;
     --accent2-color: #ffffff;
     --heading-font: 'Bungee', sans serif;
@@ -84,7 +84,7 @@ h1 {
     left: 5px;
     padding: 6px;
     background-color:var(--accent1-color);
-    opacity: 0.85;
+    opacity: 0.9;
     border-radius: 6px;
     
 }
