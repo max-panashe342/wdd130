@@ -1,0 +1,9 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    background-color: aqua;
+}
+.grid-item {
+   text-align: center; 
+   background-color: aquamarine;
+}

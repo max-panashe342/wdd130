@@ -1,16 +1,12 @@
 :root {
-    --primary-color: #ffffff;
+    --primary-color: #EDE7F6;
     --secondary-color: #5a3fcf;   
-    --accent1-color: #1a1a1a;
+    --accent1-color: #cb0fd29f;
     --accent2-color: #2a0ca6;     
     --heading-font: 'Bungee', sans-serif;
     --body-font: 'Poppins', sans-serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent1-color); 
-}
 
 * {
     margin: 0;
@@ -22,15 +18,46 @@ body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
+.nav-links {/* consider looking at it again*/
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    
+}
+.nav-links {
+    list-style: none;
+    padding:0;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    
+}
 
 header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    display: grid;
+}
+footer {
+    display: flex;
+    background-color: #EDE7F6;
+    justify-content: flex-end;
+    
+    
+
+
+}
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -77,6 +104,7 @@ h1 {
     background-color: var(--accent1-color);
     opacity: 0.9;
     border-radius: 6px;
+    
 }
 
 hero article img, h2 {
@@ -88,4 +116,23 @@ hero article img, h2 {
 
 article h2 {
     display: none;
+}
+.gallery  {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+       
+    
+}
+.gallery img  {
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px; 
+    border: 5px solid;   
+}
+.gallery figcaption {
+    text-align: center;
 }
