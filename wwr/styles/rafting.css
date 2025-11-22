@@ -46,7 +46,6 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     display: grid;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 .logo img {
@@ -90,7 +89,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    
 }
 
 h1 {
@@ -162,17 +161,6 @@ object-fit: contain;
     margin-left: 10px;
     margin-top: 30px;
     border-radius: 20px;
-}
-.book-now a {
-    display: grid;
-    text-decoration: none;
-    background-color: #D5E6C4;
-    color: #fff;
-    padding: 8px 20px;
-    font-size: 25px;
-    justify-content: center;
-    border-radius: 20px;
-    font-weight: bold;
     
 }
 .left {
