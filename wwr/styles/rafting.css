@@ -154,7 +154,7 @@ object-fit: contain;
     justify-self: center;
     
 }
-.history img {
+.history img  {
     width: 300px;
     height:auto;
     justify-self: center;
@@ -163,7 +163,18 @@ object-fit: contain;
     margin-top: 30px;
     border-radius: 20px;
 }
-
+.book-now a {
+    display: grid;
+    text-decoration: none;
+    background-color: #D5E6C4;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 25px;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
 .left {
     justify-self: start;
     text-align: left;
@@ -172,9 +183,9 @@ object-fit: contain;
 }
 .right {
     justify-self: end;
-    text-align: right;
-    
+    text-align: left;
 }
+
 .adventure {
     border: 5px solid;/*change this shit*/
 
