@@ -164,8 +164,8 @@ object-fit: contain;
     
 }
 .history img  {
-    width: 300px;
-    height:auto;
+    width: 250px;
+    height:200px;
     justify-self: center;
     margin-right: 10px;
     margin-left: 10px;
