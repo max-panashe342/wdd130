@@ -108,6 +108,7 @@ h1 {
     width: 160px;
     padding: 10px;
     margin-right: 10px;
+    height: 140px;
     
 }
 
@@ -119,12 +120,14 @@ h1 {
     background-color: var(--accent1-color);
     opacity: 0.85;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: bold
     
     
 } 
 .article p {
     color: #fff;
+    
+    
 }
 /*
 hero article img h2 {
