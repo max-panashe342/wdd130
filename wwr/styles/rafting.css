@@ -47,6 +47,7 @@ header {
     align-items: center;
     display: grid;
     margin-bottom: 20px;
+    border: 1em solid;
     
 }
 .logo img {
@@ -61,6 +62,7 @@ footer {
     background-color: #33363b;
     justify-content: flex-end;
     margin-top: 40px;
+    border: 1em solid;
 
 }
 
@@ -152,7 +154,7 @@ object-fit: contain;
 
 }
 .history {
-    border: 5px solid;
+    border: 1em solid;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto; 
@@ -190,7 +192,7 @@ object-fit: contain;
 }
 
 .adventure {
-    border: 5px solid;/*change this*/
+    border: 1em solid;/*change this*/
     max-width: 840px;
     margin: 0 auto;
     margin-top: 40px;
