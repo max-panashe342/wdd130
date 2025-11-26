@@ -93,6 +93,8 @@ aside {
     text-align: center;
     grid-column: 1;
     grid-row: 1;
+    border: 1px solid steelblue;
+    padding-top: 20px;
 }
 
 aside img {
@@ -102,7 +104,7 @@ aside img {
 aside h2 {
   position: absolute;
   top: 20px;
-  right: 25px;
+  right: 60px;
 }
 
 
@@ -121,10 +123,10 @@ footer {
     background-color: #eee;
     color: #000;
     
-    
 }
-indent {
+.indent ul {
   padding-left: 1rem;
   margin: 2rem 1rem;
-  width: 820px;
+  width: auto;
+  border: 1px 
 }
