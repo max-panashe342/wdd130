@@ -124,9 +124,9 @@ footer {
     color: #000;
     
 }
-.indent ul {
+.indent {
   padding-left: 1rem;
   margin: 2rem 1rem;
   width: auto;
-  border: 1px 
+  
 }
