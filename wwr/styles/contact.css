@@ -1,0 +1,162 @@
+:root {
+    --primary-color: #33363b;
+    --secondary-color: #368cbf;   
+    --accent1-color: #368cbf;
+    --accent2-color: #eaeaea;     
+    --heading-font: 'Bungee', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+.nav-links {/* consider looking at it again*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 7%;
+    
+}
+.nav-links li  {
+    list-style: none;
+    padding:10px;
+    gap: 20px;   
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.information, p {
+text-align: center;
+}
+.box {
+
+display: block;
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    display: grid;
+    margin-bottom: 40px;
+    
+    
+}
+.logo img {
+    height: 120px;
+    padding: 10px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #33363b;
+    justify-content: flex-end;
+    margin-top: 40px;
+    
+
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+    color: var(--secondary-color);
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+
+
+    
+
+h1 {
+    top: 10px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+.article p {
+    color: #fff;
+    
+    
+    
+}
+
+article h2 {
+    display: none;
+    
+}
+
+.main-grid {
+display:grid;
+object-fit: contain;
+
+}
+
+.left {
+    justify-self: start;
+    text-align: left;   
+}
+.right {
+    justify-self: end;
+    text-align: left;
+}
+
+.adventure {
+    border: 5px solid;/*change this*/
+    width: 840px;
+    margin-left: -25px;
+    margin-top: 20px;
+    
+     
+
+}
+
+.gallery  {
+    display: flex;
+    gap: 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 300px;
+      
+}
+.gallery img  {
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    border: 5px solid;
+    margin-top: 40px; 
+    justify-self: center;  
+}
+.gallery figcaption {
+    text-align: center;
+}
