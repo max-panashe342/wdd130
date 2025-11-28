@@ -17,7 +17,7 @@ form {
     color: #111;
 }
 input, textarea, select, button {
-    padding: .75;
+    padding: .75rem;
     width: 350px;
 }
 button {
