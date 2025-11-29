@@ -161,6 +161,7 @@ object-fit: contain;
     max-width: 840px;
     margin: 0 auto;
     margin-top: 40px;
+    padding-top: 30px;
     
     
 }
@@ -197,6 +198,7 @@ object-fit: contain;
     margin-left: -25px;
     margin-top: 20px;
     height:auto;
+    padding-top: 30px;
     
      
 
