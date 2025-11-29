@@ -93,7 +93,7 @@ nav, p, section, article {
     
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -232,9 +232,20 @@ object-fit: contain;
     justify-content: space-between;
     
 }
+h1 {
+    position: static;
+    background-color: none;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    opacity: 1;
+}
 .thunder {
 font-size: 30px;
+
 }
+
 .map {
     
 flex: 1;
