@@ -234,10 +234,9 @@ object-fit: contain;
 }
 h1 {
     position: static;
-    background-color: none;
     color: var(--primary-color);
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 20px 0;
     opacity: 1;
 }
