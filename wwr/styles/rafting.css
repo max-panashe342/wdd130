@@ -54,7 +54,7 @@ header {
     height: 120px;
     padding: 10px;
     margin: 50px 50px 50px 50px;
-    border-radius: 50px;
+    border: 1px solid;
 }
 
 footer {
@@ -207,7 +207,7 @@ object-fit: contain;
     gap: 1rem;
     margin-right: 10px;
     margin-left: 10px;
-    height: 200px;
+    height: 40vh;
       
 }
 .gallery img  {
@@ -232,6 +232,9 @@ object-fit: contain;
     justify-content: space-between;
     
 }
+.thunder {
+font-size: 30px;
+}
 .map {
     
 flex: 1;
@@ -253,6 +256,9 @@ form {
   border-radius: 8px;
   width: 350px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #33363b;
+  color: #fff
+  
   
 }
 
@@ -268,8 +274,11 @@ label {
 }
 .message {
     display: flex;
-   flex-wrap: wrap;
-   
+   flex-wrap: wrap;    
+}
+.text {
+    color:#fff;
+
 }
  textarea {
   width: 100%;
@@ -285,7 +294,6 @@ label {
 }
 
 .radio-group label {
-  font-weight: normal;
   margin-left: 5px;
   padding: 5px;
   display: inline-block;
