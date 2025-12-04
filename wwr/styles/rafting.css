@@ -1,7 +1,7 @@
 :root {
     --primary-color: #33363b;
-    --secondary-color: #368cbf;   
-    --accent1-color: #2a6d94;
+    --secondary-color: goldenrod;   
+    --accent1-color: goldenrod;
     --accent2-color: #eaeaea;     
     --heading-font: 'Bungee', sans-serif;
     --body-font: 'Poppins', sans-serif;
@@ -20,28 +20,43 @@ body {
     color: var(--accent1-color);
     
     
+    
+    
 }
 .nav-links {/* consider looking at it again*/
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 7%;
+    
+    
+    
     
 }
 .nav-links li  {
     list-style: none;
-    padding:10px;
-    gap: 20px;   
+    padding: 5px;
+    gap: 20px;
+     
+      
 }
+
 .nav-links li a {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    background-color: goldenrod;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.nav-links li a:hover {
+    background-color: gold;
 }
 
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    
     
 }
 header {
@@ -50,23 +65,28 @@ header {
     grid-template-columns: auto 1fr;
     align-items: center;
     display: grid;
-    margin-bottom: 40px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/hero3.jpg);
+    
+    
     
     
 }
 .logo img {
-    height: 120px;
-    padding: 10px;
+    height: 100px;
+    padding: 5px;
     margin: 50px 50px 50px 50px;
-    border: 1px solid;
+    border: 3px solid goldenrod;
 }
 
 footer {
     display: flex;
     background-color: #33363b;
     justify-content: flex-end;
-    margin-top: 40px;
+
+
+    
+    
+
+    
     
 
 }
@@ -271,9 +291,9 @@ form {
   padding: 15px;
   border-radius: 8px;
   width: 350px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  background-color: #33363b;
-  color: #fff
+  
+  background-color: #2F2F2F;
+  color: #fff;
   
   
 }
@@ -327,7 +347,7 @@ button {
   margin-top: 15px;
   padding: 10px;
   width: 100%;
-  background-color: #2a6d94;
+  background-color: goldenrod;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -336,30 +356,46 @@ button {
 }
 
 button:hover {
-  background-color: slategrey;
+  background-color: gold;
 }
 /*My home CSS is down here*/
 .wrapper {
     position: relative;
+    display: grid;
+    
 }
 .wrapper img {
     width: 100%;
     display: block;
+    
+    
+}
+.section {
+    
+    padding-top: 10px;
+    color: goldenrod;
+    
+    
+    
+}
+.heading-1 {
+    color: goldenrod;
+}
+.heading-2  {
+    color: goldenrod;
+    font-size: 50px;
+    
 }
 .wrapper-content {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top:    40%;
+    left:   50%;
     transform: translate(-50%, -80%);
-    text-align: center;
-    
-    
-    
-    
-    
+    text-align: center; 
     
 }
 .user-form {
+  
   max-width: 500px;
   margin: 50px auto;
   padding: 10px;
@@ -394,7 +430,7 @@ button:hover {
 .user-form button {
   width: 100%;
   padding: 10px;
-  background-color: #2a6d94;;
+  background-color:goldenrod;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -402,5 +438,102 @@ button:hover {
 }
 
 .user-form button:hover {
-  background-color: #005fa3;
+  background-color: gold;
+}
+.adventure-images  {
+    padding-bottom: 80px;
+    background-color: #33363b;
+    position: absolute;
+    width: 500px;
+    margin-top: -500px;
+    padding-bottom: 7rem;
+    border: 2px solid gold
+}
+/*My Trips page CSS is here*/
+.hero-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;  
+  padding-bottom: 0;
+
+    
+}
+.hero-heading {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: goldenrod;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+.trips {
+    padding: 40px 20px;
+    /*background-color:#f5f5f5;*/
+  text-align: center;
+
+}
+.trips h2 {
+    position: absolute;
+    top: 30%;
+  right: 80%;
+  transform: translate(0%, -20%);
+  color: goldenrod;
+  font-size: 4rem;
+}
+.pictures  {
+    display: flex;
+    position: absolute;
+    top:25%;
+    right: 20%;
+    transform: translate(20%, -15%);
+    color: goldenrod;
+    gap: 10px;
+    width: 600px;
+    padding-top: 10px;
+    border: 10px solid;
+    background-color: #33363b;
+    
+}
+.pictures img {
+    width: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+.pictures figcaption {
+    border: 1px solid gold;
+    
+}
+.trips-table {
+position: absolute;
+width: 600px;
+height: 500px;
+border-collapse: collapse;
+margin: 20px auto; 
+font-family: Arial, sans-serif;
+top:55%;
+right: 20%;
+transform: translate(20%, -15%);
+background-color: #2F2F2F;
+  
+}
+
+.trips-table th, 
+.trips-table td {
+  border: 1px solid gold;
+  padding: 10px;
+  text-align: center;
+}
+
+.trips-table th {
+  background-color: #33363b;
+  color: goldenrod;
+  font-size: 1.1rem;
+}
+.trips-table tr:hover {
+  background-color: #d9edf7; 
 }
