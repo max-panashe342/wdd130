@@ -441,13 +441,28 @@ button:hover {
   background-color: gold;
 }
 .adventure-images  {
-    padding-bottom: 80px;
+    
     background-color: #33363b;
     position: absolute;
     width: 500px;
     margin-top: -500px;
-    padding-bottom: 7rem;
-    border: 2px solid gold
+    padding-bottom: 9rem;
+    border: 3px solid gold;
+}
+.call-link a {
+    position: absolute;
+    display: inline-block;
+    background-color: #003366;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.call-link a:hover {
+    color: #DAA520;
 }
 /*My Trips page CSS is here*/
 .hero-container {
@@ -456,8 +471,7 @@ button:hover {
     background-position: center;
     margin-bottom: 0;  
   padding-bottom: 0;
-
-    
+   
 }
 .hero-heading {
   position: absolute;
